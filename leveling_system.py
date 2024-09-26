@@ -1,6 +1,8 @@
 class leveling:    
     def __init__(self, level_caps=None):
-        self.level_caps = level_caps if level_caps else {1:20, 2:50, 3:100}
+        self.level_caps = level_caps if level_caps else {1:20, 2:50, 3:100, 
+                                                         4:200, 5:400, 6:800,
+                                                         7:1200, 8:1500, 9:2000}
     
     def gain_experience(self, player, exp_gained):
         # this function will be used on condition when monster die.
