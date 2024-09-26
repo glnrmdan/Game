@@ -18,5 +18,5 @@ class leveling:
         # Additional Stats when player level up
         player.atk += 5
         player.df  += 5
-        player.hp  += 15
+        player.hp  += 50
         print(f"Stats Increased! Attack: {player.atk}, Defend: {player.df}, HP: {player.hp}")
