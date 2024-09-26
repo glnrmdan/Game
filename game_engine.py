@@ -35,19 +35,3 @@ class Battle:
                 
         # All monster die
         print(f"All monster is defeated! {self.player.name} Wins!")
-        
-    # def gain_experience(self, exp_gained):
-    #     # this function will be used on condition when monster die.
-    #     # Players get the EXP from monster
-    #     self.player.exp += exp_gained # exp_gained will be filled with monster exp later
-        
-    #     while self.player.exp >= self.level_caps.get(self.player.lvl, float('inf')):
-    #         self.player.exp -= self.level_caps[self.player.lvl]
-    #         self.player.lvl += 1
-    #         print(f"{self.player.name} Leveled Up! The Level Now Is {self.player.lvl}")
-            
-    #         # Additional Stats when player level up
-    #         self.player.atk += 8
-    #         self.player.df  += 4
-    #         self.player.hp  += 15
-    #         print(f"Stats Increased! Attack: {self.player.atk}, Defend: {self.player.df}, HP: {self.player.hp}")
