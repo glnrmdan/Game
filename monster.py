@@ -16,10 +16,3 @@ class mons_stats(monster):
         
     def display_monster(self):
         print(f"Name\t: {self.name}\nLevel\t: {self.lvl}\nEXP\t: {self.exp}\nAttack\t: {self.atk}\nDefend\t: {self.df}\nHP\t: {self.hp}")
-
-# monster_stats = mons_stats("Riki", 15, 5, 10)
-
-# print("=================\nMonster Stats")
-# monster_stats.display_monster()
-# print("=================")
-        
